@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1170px;
+  width: 100%;
+  padding: 0 30px;
+  margin: 0 auto;
+  font-family: sans-serif;
+}
+
+#ourTeam-section .container .ourTeam-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 50px 0;
+}
+#ourTeam-section .container .ourTeam-container .ourTeam-content {
+  text-align: center;
+  width: 100%;
+  margin-bottom: 20px;
+}
+#ourTeam-section .container .ourTeam-container .ourTeam-content .ourTeam-titleBox {
+  width: 100%;
+  margin-bottom: 10px;
+}
+#ourTeam-section .container .ourTeam-container .ourTeam-content .ourTeam-titleBox h2 {
+  font-size: 20px;
+}
+#ourTeam-section .container .ourTeam-container .ourTeam-content .ourTeam-textBox {
+  width: 100%;
+  margin-bottom: 30px;
+}
+#ourTeam-section .container .ourTeam-container .ourTeam-content .ourTeam-textBox p {
+  font-size: 16px;
+}
+#ourTeam-section .container .ourTeam-container .ourTeam-content .searchBox .card-search {
+  padding: 5px;
+  border-radius: 6px;
+  font-size: 16px;
+}
+#ourTeam-section .container .ourTeam-container .ourTeam-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: center;
+}
+#ourTeam-section .container .ourTeam-container .ourTeam-cards .ourTeam-card {
+  min-height: 250px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  max-width: 300px;
+  width: 100%;
+  border: 1px solid rgb(146, 143, 143);
+  border-radius: 6px;
+  padding: 20px;
+}
+#ourTeam-section .container .ourTeam-container .ourTeam-cards .ourTeam-card .card-titleBox {
+  width: 100%;
+  border-bottom: 1px solid #cccccc;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+}
+#ourTeam-section .container .ourTeam-container .ourTeam-cards .ourTeam-card .card-titleBox .card_companyName {
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+#ourTeam-section .container .ourTeam-container .ourTeam-cards .ourTeam-card .card-titleBox .card_contactName {
+  font-size: 14px;
+  margin-bottom: 20px;
+  opacity: 0.9;
+}
+#ourTeam-section .container .ourTeam-container .ourTeam-cards .ourTeam-card .card-btnBox {
+  width: 100px;
+  text-align: center;
+  margin-top: 10px;
+}
+#ourTeam-section .container .ourTeam-container .ourTeam-cards .ourTeam-card .card-btnBox .card-btn {
+  color: #fff;
+  background-color: #3b5ec8;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  text-decoration: none;
+}
